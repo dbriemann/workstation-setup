@@ -1,0 +1,57 @@
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "editor.fontFamily": "Fira Code Retina",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 15,
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "go.languageServerExperimentalFeatures": {
+        "diagnostics": true // for diagnostics as you type
+    },
+    "go.autocompleteUnimportedPackages": true,
+    "files.associations": {
+        "app.conf": "ini", // revel config files
+        "*.tmpl": "html",
+        "*.mustache": "html",
+        "*.script": "lua"
+    },
+    "pixelbyte.love2d.path": "/usr/bin/love",
+    "todohighlight.include": [
+        "**/*.go",
+        "**/*.lua",
+        "**/*.script"
+    ],
+    "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.keywords": [
+        {
+            "text": "TODO",
+            "color": "yellow",
+            "border": "1px solid yellow",
+            "borderRadius": "2px",
+            "backgroundColor": "rgba(0,0,0,.4)",
+        },
+        {
+            "text": "NOTE",
+            "color": "lime",
+            "border": "1px solid lime",
+            "borderRadius": "2px",
+            "backgroundColor": "rgba(0,0,0,.4)",
+        },
+        {
+            "text": "FIXME",
+            "color": "red",
+            "border": "1px solid red",
+            "borderRadius": "2px",
+            "backgroundColor": "rgba(0,0,0,.4)",
+        }
+    ],
+    "todohighlight.defaultStyle": {
+        "cursor": "pointer",
+        "isWholeLine": true,
+        //other styling properties goes here ... 
+    },    
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "ArtNouveau"    
+}
