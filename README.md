@@ -13,13 +13,14 @@ Detailed listing of all tools and settings needed for my perfect development wor
 
 ### Apt Install
 
-`rofi plank terminator tilix dconf-editor clang lua luajit xscreensaver* fd-find vim`
+`rofi plank terminator tilix dconf-editor clang lua5.3 git luajit xscreensaver* fd-find vim`
 
 ## Mate Settings
 
 Important dconf settings for Mate are stored [here](mate-settings), these are mainly custom keybindings. After exporting the file is stripped of several settings. Don't just overwrite the old file!
 
 **Export with:** `dconf dump /org/mate/ > org.mate`
+
 **Import with:** `dconf load /org/mate/ < org.mate`
 
 ## Vscode Settings

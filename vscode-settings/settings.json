@@ -1,9 +1,9 @@
 {
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
-    "editor.fontFamily": "Fira Code Retina",
+    "editor.fontFamily": "Hack, Cascadia Code, Monaco, Fira Code Retina, Input, Hermit, Monofur",
     "editor.fontLigatures": true,
-    "editor.fontSize": 15,
+    "editor.fontSize": 16,
     "go.formatTool": "goimports",
     "go.useLanguageServer": true,
     "go.languageServerExperimentalFeatures": {
@@ -53,5 +53,6 @@
         //other styling properties goes here ... 
     },    
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "ArtNouveau"    
+    "workbench.colorTheme": "ArtNouveau",
+    "d.servedPath": "/home/dlb/.local/share/code-d/bin/serve-d"
 }
