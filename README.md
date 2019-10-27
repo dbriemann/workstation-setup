@@ -6,14 +6,15 @@ Detailed listing of all tools and settings needed for my perfect development wor
 
 ### Custom Install
 
-- [fzf](https://github.com/junegunn/fzf)
-- [gvm](https://github.com/moovweb/gvm)
-- [vscode](https://code.visualstudio.com/download)
-- [abricotine](https://abricotine.brrd.fr/#download)
+- fuzzy finder and dir jumps: [fzf](https://github.com/junegunn/fzf)
+- go version manager: [gvm](https://github.com/moovweb/gvm)
+- multi-language ide/editor: [vscode](https://code.visualstudio.com/download)
+- cat alternative: [bat](https://github.com/sharkdp/bat) 
+- ls alternative: [exa](https://the.exa.website/)
 
 ### Apt Install
 
-`rofi plank terminator tilix dconf-editor clang lua5.3 git luajit xscreensaver* fd-find vim`
+`rofi plank terminator tilix dconf-editor clang lua5.3 git luajit xscreensaver* fd-find vim ripgrep nnn ncdu tig`
 
 ## Mate Settings
 
