@@ -11,6 +11,8 @@ Detailed listing of all tools and settings needed for my perfect development wor
 - multi-language ide/editor: [vscode](https://code.visualstudio.com/download)
 - cat alternative: [bat](https://github.com/sharkdp/bat) 
 - ls alternative: [exa](https://the.exa.website/)
+- git repo information in bash prompt: [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt)
+- [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim#pre-built-archives-1)
 
 ### Apt Install
 
