@@ -16,7 +16,7 @@ Detailed listing of all tools and settings needed for my perfect development wor
 
 ### Apt Install
 
-`rofi plank terminator tilix dconf-editor clang lua5.3 git luajit xscreensaver* fd-find vim ripgrep nnn ncdu tig`
+`rofi plank terminator tilix dconf-editor clang lua5.3 git luajit fd-find vim ripgrep nnn ncdu tig`
 
 ## Mate Settings
 

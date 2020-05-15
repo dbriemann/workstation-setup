@@ -35,6 +35,16 @@ exec='mate-calc'
 [desktop/applications/terminal]
 exec='terminator'
 
+[desktop/background]
+color-shading-type='vertical-gradient'
+picture-filename='/home/dlb/Wallpapers/qhd/angelina.jpg'
+picture-options='zoom'
+primary-color='rgb(88,145,188)'
+secondary-color='rgb(60,143,37)'
+
+[desktop/interface]
+icon-theme='Obsidian-Sand'
+
 [desktop/keybindings/custom0]
 action='rofi -show run'
 binding='<Mod4>space'
@@ -65,15 +75,17 @@ delay=308
 numlock-state='on'
 rate=28
 
+[desktop/session]
+session-start=1589553507
+show-hidden-apps=false
+
 [marco/general]
 allow-tiling=true
 num-workspaces=1
+theme='Ambiant-MATE'
 
 [marco/global-keybindings]
 run-command-terminal='<Mod4>Return'
-
-[marco/keybinding-commands]
-command-1='xscreensaver-command -lock'
 
 [marco/window-keybindings]
 begin-move='disabled'
@@ -96,6 +108,76 @@ tile-to-side-e='<Mod4>KP_6'
 tile-to-side-w='<Mod4>KP_4'
 toggle-maximized='<Mod4>KP_5'
 
+[notification-daemon]
+do-not-disturb=false
+
+[panel/general]
+object-id-list=['briskmenu', 'notification-area', 'indicatorappletcomplete', 'object-0', 'object-1', 'object-2', 'object-3']
+toplevel-id-list=['top']
+
+[panel/objects/briskmenu]
+applet-iid='BriskMenuFactory::BriskMenu'
+locked=true
+object-type='applet'
+position=32
+toplevel-id='top'
+
+[panel/objects/indicatorappletcomplete]
+applet-iid='IndicatorAppletCompleteFactory::IndicatorAppletComplete'
+locked=true
+object-type='applet'
+panel-right-stick=true
+position=0
+toplevel-id='top'
+
+[panel/objects/notification-area]
+applet-iid='NotificationAreaAppletFactory::NotificationArea'
+locked=true
+object-type='applet'
+panel-right-stick=true
+position=10
+toplevel-id='top'
+
+[panel/objects/object-0]
+applet-iid='WnckletFactory::WindowListApplet'
+locked=true
+object-type='applet'
+panel-right-stick=false
+position=123
+toplevel-id='top'
+
+[panel/objects/object-1]
+applet-iid='WnckletFactory::ShowDesktopApplet'
+locked=true
+object-type='applet'
+panel-right-stick=false
+position=0
+toplevel-id='top'
+
+[panel/objects/object-2]
+applet-iid='TrashAppletFactory::TrashApplet'
+locked=true
+object-type='applet'
+panel-right-stick=false
+position=2235
+toplevel-id='top'
+
+[panel/objects/object-3]
+applet-iid='WnckletFactory::WorkspaceSwitcherApplet'
+locked=true
+object-type='applet'
+panel-right-stick=false
+position=2122
+toplevel-id='top'
+
+[panel/toplevels/top]
+expand=true
+orientation='bottom'
+screen=0
+size=32
+y=1408
+y-bottom=0
+
 [pluma]
 active-plugins=['time', 'spell', 'modelines', 'filebrowser', 'docinfo']
 color-scheme='oblivion'
@@ -103,6 +185,18 @@ history-search-for=['agent']
 right-margin-position=120
 statusbar-visible=true
 
+[screensaver]
+mode='blank-only'
+themes=@as []
+
 [settings-daemon/plugins/media-keys]
 calculator='<Mod4>c'
 screensaver='<Mod4>l'
+
+[terminal/profiles/default]
+allow-bold=false
+background-color='#FFFFFFFFDDDD'
+bold-color='#000000000000'
+foreground-color='#000000000000'
+palette='#2E2E34343636:#CCCC00000000:#4E4E9A9A0606:#C4C4A0A00000:#34346565A4A4:#757550507B7B:#060698209A9A:#D3D3D7D7CFCF:#555557575353:#EFEF29292929:#8A8AE2E23434:#FCFCE9E94F4F:#72729F9FCFCF:#ADAD7F7FA8A8:#3434E2E2E2E2:#EEEEEEEEECEC'
+visible-name='Default'
